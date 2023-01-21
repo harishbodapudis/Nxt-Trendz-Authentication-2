@@ -1,0 +1,20 @@
+/* Write your CSS code here */
+
+.product-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.product-img {
+  height: 300px;
+  width: 25%;
+}
+
+@media (width < 768px) {
+  .product-img {
+    height: 300px;
+    width: 30%;
+  }
+}
